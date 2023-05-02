@@ -1,0 +1,241 @@
+body {
+  font-family: inherit;
+  margin: auto;
+}
+
+#header-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(188, 183, 193, 0.2)),
+    url("../images/yujiFlip.jpg");
+  background-repeat: no-repeat;
+  height: 1000px;
+  color: #ffffff;
+  background-size: cover;
+}
+
+.navbar-menu {
+  color: white;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 25px;
+  margin-left: 60px;
+  margin-right: 6px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-left: 6% !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-style: italic;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+.navbar-top {
+  z-index: 999;
+}
+
+.firstText {
+  letter-spacing: 6px;
+}
+.secondText {
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+
+#bannerText {
+  padding-top: 250px;
+  padding-left: 5%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.note {
+  font-size: 1rem;
+}
+
+.container-fluid {
+  padding: 0% 7%;
+  /* margin: 60px; */
+}
+
+#ad {
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  padding-right: 10%;
+}
+
+.bump {
+  width: 50%;
+}
+
+.dump {
+  width: 50%;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.font {
+  color: #000;
+}
+
+.about {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: dodgerblue;
+  margin: 5px;
+}
+
+#bottom {
+  background: linear-gradient(rgba(5, 12, 36, 0.9), rgba(5, 12, 36, 0.9)),
+    url("../images/kids.jpg");
+  background-repeat: no-repeat;
+  padding: 20% 9%;
+  height: 800px;
+  color: #ffffff;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.column {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.video {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  text-align: center;
+}
+
+.photo {
+  width: 600px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+#bannerText .btn {
+  padding: 25px 55px;
+  font-size: 2rem;
+  background-color: #19a7ce;
+  border: 3px solid white;
+  color: white;
+  border-radius: 40px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.video-wrapper {
+  position: relative;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.play-button:focus {
+  outline: none;
+}
+footer {
+  text-align: center;
+}
+.right {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 14px;
+}
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.video-wrapper {
+  position: relative;
+}
+
+.video-title {
+  position: absolute;
+  top: 0;
+  left: 23%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.video-detail {
+  position: absolute;
+  top: 7%;
+  left: 42%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.banner,
+.note,
+.btn,
+.about,
+.font,
+.description,
+.list {
+  animation-name: slide-up;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Game in Frame - Grassroots Soccer Livetream & Highlights</title>
+    <link rel="icon" type="image/png" href="images/Logo-1.png" />
+
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+
+    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <section id="header-banner">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logo.png" alt="Logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav extra-margin-to-left">
+                <li class="nav-item active">
+                  <a
+                    class="nav-link"
+                    href="https://gameinframe.com/book-livestream/"
+                    >Book Livestream</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://gameinframe.com/book-player-highlights/"
+                    >Book Player Highlights</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://shop.gameinframe.com/"
+                    >Shop</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div id="bannerText">
+            <p class="banner">The Arena of Lightning-Fast <br />Precision</p>
+            <p class="note">
+              Livestreams, player highlight reels, podcasts and more.<br />
+              You bring the Game, we’ll put it In Frame.<br />
+            </p>
+            <a href="https://player.gameinframe.com/">
+              <button
+                type="button"
+                class="btn btn-primary btn-lg download-button border-light px-5 py-6"
+              >
+                Watch Now
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="ad">
+        <div class="bump">
+          <img class="photo" src="images/pxfuel.jpg" alt="tell me why" />
+        </div>
+
+        <div class="dump">
+          <p class="about">About us</p>
+          <h1 class="font">
+            <b>Get Your Northeast Japanese Fix with Game in Frame</b>
+          </h1>
+          <p class="description">
+            Discover why Game in Frame is the ultimate destination for
+            grassroots soccer fans:
+          </p>
+          <ul class="list">
+            <li>
+              Experience Premier League-style livestreams on Game in Frame.
+            </li>
+            <li>
+              Relive special moments years later with our permanent livestreams.
+            </li>
+            <li>
+              Compete for the coveted Goal of the Month and Save of the Month
+              awards.
+            </li>
+            <li>
+              Elevate your team’s exposure with our exclusive talk shows and
+              podcasts.
+            </li>
+          </ul>
+          <a href="https://player.gameinframe.com/p/l94jFS5v">
+            <button class="btn btn-outline-dark btn-lg download-button">
+              Watch Now
+            </button></a
+          >
+        </div>
+      </section>
+      <section class="video">
+        <div class="video-wrapper">
+          <video controls autoplay loop width="1100" id="my-video">
+            <source src="videos/WC_ JAPAN VS QATAR .mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <button class="play-button" onclick="playPause()">
+            <i class="fas fa-play"></i>
+          </button>
+          <div>
+            <h3 class="video-title">Monthly Review: April</h3>
+            <p class="video-detail">
+              Japan Destroyed Qatar so EASY | JAPAN VS QATAR | FIVB Men's World
+              Championships 2023
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div id="bottom">
+          <div class="row">
+            <div class="feature-box col-lg-4">
+              <img src="images/Logo-1.png" alt="logo" />
+              <p><br /></p>
+              <p>
+                Your go-to online platform for top-notch Northeast American
+                grassroots soccer. Catch every game and every goal as it
+                happens, right from the comfort of your own device.
+              </p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+              <p class="terms">
+                <b
+                  >ABOUT<br /><br />
+                  SHOP<br /><br />
+                  PRIVACY POLICY<br /><br />
+                  TERMS OF USE
+                </b>
+              </p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+              <h6>FOLLOW US</h6>
+              <div class="social">
+                <a href="https://www.facebook.com/watch/gameinframe/"
+                  ><img src="images/facebook.png" alt="facebook"
+                /></a>
+                <a href="https://www.instagram.com/gameinframe/"
+                  ><img src="images/instagram.png" alt=""
+                /></a>
+                <a
+                  href="https://www.youtube.com/channel/UCPWjUHzx2BL28wdUVWpUt4w"
+                  ><img src="images/youtube.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="right"><p>© 2023 All rights reserved</p></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
